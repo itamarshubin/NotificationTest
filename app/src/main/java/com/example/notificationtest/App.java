@@ -32,7 +32,7 @@ public class App extends Application {
                     "chanel 1",
                     NotificationManager.IMPORTANCE_LOW
             );
-            chanel2.setDescription("This is chanel 2");
+            chanel2.setDescription("This is chanel NO. 2");
 
             NotificationManager manager = getSystemService(NotificationManager.class);
             manager.createNotificationChannel(chanel1);
