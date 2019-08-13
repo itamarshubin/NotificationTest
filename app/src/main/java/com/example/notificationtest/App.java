@@ -25,7 +25,7 @@ public class App extends Application {
                     "chanel 1",
                     NotificationManager.IMPORTANCE_HIGH
             );
-            chanel1.setDescription("This is chanel 1");
+            chanel1.setDescription("This is chanel NO. 1");
 
             NotificationChannel chanel2 = new NotificationChannel(
                     CHANEL_2_ID,
